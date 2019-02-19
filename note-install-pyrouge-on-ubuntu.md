@@ -1,8 +1,8 @@
-##Tutorials:
+## Tutorials:
 - Refer to this blog: http://blog.csdn.net/jolinxia/article/details/77508435
 - If you encounter some problems when following the steps, go to the NOTE section
 
-##Outline
+## Outline
 - Step 1: Create a new conda virtual env
 ```
     conda create -n py27env python=2.7 pip
@@ -39,7 +39,7 @@
     ln -s WordNet-2.0-Exceptions/WordNet-2.0.exc.db WordNet-2.0.exc.db
 ```
 
-- Step 7: Deal with test code errors for pyrouge (f**k AGAIN!), In ```Rouge155_test.py``` file, you should modify two lines (refhttps://stackoverflow.com/a/41382391):
+- Step 7: Deal with test code errors for pyrouge (f**k AGAIN!), In ```Rouge155_test.py``` file, you should modify two lines (ref https://stackoverflow.com/a/41382391):
 ```
     vi ~/.anaconda3/envs/py27env/lib/python2.7/site-packages/pyrouge/tests/Rouge155_test.py
 
